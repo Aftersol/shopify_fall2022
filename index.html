@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GPT AI</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <article>
+            <h1>GPT-3 AI</h1>
+            <form id="query-form" class="query-form" action="#" method="get">
+                <label>Enter your prompt:</label>
+                <input id="prompt" type="text">
+                <button id="prompt_submit" onclick="">Submit</button>
+    
+            </form>
+            <div id="answers">
+                
+            </div>
+            
+            <div id="history">
+                
+            </div>
+
+            <div id="buttons">            
+                <button type="button" onclick="readHistory()">Load History</button>
+                <button type="button" onclick="clearHistory(true)">Clear History</button>
+            </div>
+
+        </article>
+        <footer><p>Created using <a href="https://openai.com/">OpenAI model</a></p></footer>
+        <script src="gpt.js"></script>
+    </body>
+</html>

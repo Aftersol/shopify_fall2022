@@ -1,0 +1,52 @@
+@font-face
+{
+    /* https://www.dafont.com/rush-of-the-geisha.font */
+    font-family: Geisha;
+    src: url("assets/rush-of-the-geisha.ttf") format("truetype");
+}
+
+
+body
+{
+    background-color: rgb(90, 90, 78);
+
+}
+
+a, article,footer
+{
+    color:white;
+}
+
+article, footer
+{
+
+    background-color: rgb(177, 177, 149);
+    padding: 1rem;
+
+    font-family: Geisha, Arial, Helvetica, sans-serif;
+}
+
+article h1
+{
+    font-size: 4rem;
+}
+
+article p, article label
+{
+    font-size: 1.5rem;
+}
+
+a
+{
+    font-style: normal;
+
+    text-decoration: none;
+}
+
+.query-form input
+{
+    padding:.5rem;
+    
+    border-radius: .25rem;
+    border-style: solid;
+}
