@@ -1,3 +1,4 @@
+// This variable saves the last x searches to prevent pages from being overflowed and clogging up the user interface
 const maxHistoryLength = 10;
 
 function readHistory()
