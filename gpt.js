@@ -120,6 +120,7 @@ window.addEventListener("load", function()
 
         query(prompt);
     });
-
-
 })
+
+document.querySelector('#history').innerHTML = "Reading history";
+readHistory();

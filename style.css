@@ -26,6 +26,13 @@ article, footer
     font-family: Geisha, Arial, Helvetica, sans-serif;
 }
 
+body
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 article h1
 {
     font-size: 4rem;
@@ -49,4 +56,27 @@ a
     
     border-radius: .25rem;
     border-style: solid;
+}
+
+#buttons, #prompt_submit, #prompt
+{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+
+}
+
+#history p, #answers p
+{
+    font-size: 1.5rem;
+}
+
+#buttons button, #prompt_submit
+{
+    font-size: 1.5rem;
+    font-family: Geisha, Arial, Helvetica, sans-serif;
+
+    padding: .5rem;
+    border-radius: 1.5em;
+    border-color: rgb(90, 90, 78);
 }
