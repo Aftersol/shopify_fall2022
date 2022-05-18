@@ -122,5 +122,6 @@ window.addEventListener("load", function()
     });
 })
 
+// Automatically load history when the page loads
 document.querySelector('#history').innerHTML = "Reading history";
 readHistory();
